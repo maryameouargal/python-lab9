@@ -1,0 +1,18 @@
+Question 1 :
+[0]*6 = liste Python (lente, pas de maths directes)
+np.zeros(6) = tableau NumPy (rapide, maths vectorisées)
+
+Question 2 :
+np.linspace inclut 0 et 1 par défaut pour diviser l'intervalle en parts égales avec les bords.
+
+Question 3 :
+Erreur : ValueError car 4×3=12 mais le tableau a seulement 9 éléments.
+
+Question 4 :
+
+NumPy → Liste : tableau.tolist()
+
+Liste → NumPy : np.array(liste)
+
+JSON : utilise .tolist() d'abord car JSON ne comprend pas NumPy.
+
